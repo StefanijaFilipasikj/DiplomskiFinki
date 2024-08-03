@@ -1,0 +1,49 @@
+/* _content/DiplomskiFinki/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-t80gv377rf] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-t80gv377rf] {
+  color: #0077cc;
+}
+
+.btn-primary[b-t80gv377rf] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-t80gv377rf], .nav-pills .show > .nav-link[b-t80gv377rf] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-t80gv377rf] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-t80gv377rf] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-t80gv377rf] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-t80gv377rf] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-t80gv377rf] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
