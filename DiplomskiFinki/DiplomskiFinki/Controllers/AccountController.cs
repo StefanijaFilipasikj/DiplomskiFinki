@@ -55,13 +55,14 @@
                 //}
 
                 // Sign in the user with this external login provider if the user already has a login.
+
                 // TODO: fix this
-                var result = await _signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, isPersistent: false);
-                if (result.Succeeded)
-                {
-                    _logger.LogInformation(5, "User logged in with {Name} provider.", info.LoginProvider);
-                    return RedirectToLocal(returnUrl);
-                }
+                //var result = await _signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, isPersistent: false);
+                //if (result.Succeeded)
+                //{
+                //    _logger.LogInformation(5, "User logged in with {Name} provider.", info.LoginProvider);
+                //    return RedirectToLocal(returnUrl);
+                //}
 
                 return RedirectToAction("Index", "Home");
                 //if (result.RequiresTwoFactor)

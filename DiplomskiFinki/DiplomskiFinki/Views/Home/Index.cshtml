@@ -1,6 +1,164 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    Layout = "../Shared/_Layout.cshtml";
 }
 
 <h3>Постапка за пријавување, одбрана и оцена на дипломска работа</h3>
 <hr class="text-muted" />
+
+<div>
+    <div class="bg-lightgreen border-green mb-4">
+        <div class="text-darkgreen py-3 px-4 fw-bold">
+            1. Пријава
+        </div>
+        <div class="bg-white p-3">
+            <dl class="dl-horizontal">
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">валидира</dt>
+                    <dd class="col-10 fw-bold">ментор</dd>
+                </div>
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">опис</dt>
+                    <dd class="col-10">Менторот, по договор со студентот, ја пополнува формата за нова пријава, достапна на линкот “Нова пријава”. Се пополнуваат полињата за Тема, Област и Кратка содржина. Дополнително, Член 1 содржи листа само на професори, а Член 2 содржи листа на асистенти и професори. Системот праќа известување по електронска пошта до студентот.</dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+    <div class="bg-lightgreen border-green mb-4">
+        <div class="text-darkgreen py-3 px-4 fw-bold">
+            2. Прифаќање на темата од студентот
+        </div>
+        <div class="bg-white p-3">
+            <dl class="dl-horizontal">
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">валидира</dt>
+                    <dd class="col-10 fw-bold">студент</dd>
+                </div>
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">опис</dt>
+                    <dd class="col-10">Студентот се согласува со пријавената тема. Системот праќа известување по електронска пошта до менторот и службата за студентски прашања.</dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+    <div class="bg-lightgreen border-green mb-4">
+        <div class="text-darkgreen py-3 px-4 fw-bold">
+            3. Валидирање од службата за студентски прашања
+        </div>
+        <div class="bg-white p-3">
+            <dl class="dl-horizontal">
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">валидира</dt>
+                    <dd class="col-10 fw-bold">студентска служба</dd>
+                </div>
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">опис</dt>
+                    <dd class="col-10">Службата за студентски прашања проверува дали студентот исполнува услови за пријава на тема (освоени 140 односно 200 ЕКТС, запишан предмет “Дипломска работа” во тековниот или минатиот семестар). Системот праќа известување по електронска пошта до студентот, менторот и членовите во комисија. Доколку условите не се исполнети, пријавата останува во оваа состојба до нивно исполнување.</dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+    <div class="bg-lightgreen border-green mb-4">
+        <div class="text-darkgreen py-3 px-4  fw-bold">
+            3.1. Одобрение од продекан за настава
+        </div>
+        <div class="bg-white p-3">
+            <dl class="dl-horizontal">
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">валидира</dt>
+                    <dd class="col-10 fw-bold">продекан за настава</dd>
+                </div>
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">опис</dt>
+                    <dd class="col-10">Продеканот за настава валидира дали пријавената тема соодветствува со областа и менторот на дипломскиот труд.</dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+
+    <div class="bg-lightgreen border-green mb-4">
+        <div class="text-darkgreen py-3 px-4  fw-bold">
+            4. Одобрение за оценка од ментор
+        </div>
+        <div class="bg-white p-3">
+            <dl class="dl-horizontal">
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">валидира</dt>
+                    <dd class="col-10 fw-bold">ментор</dd>
+                </div>
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">опис</dt>
+                    <dd class="col-10">Во моментот кога менторот е задоволен со изработената работа и напишаниот текст, истиот го прикачува кон пријавата, со што истата станува видлива и за членовите на комисијата. Системот праќа известување по електронска пошта до студентот и членовите во комисија.</dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+    <div class="bg-lightgreen border-green mb-4">
+        <div class="text-darkgreen py-3 px-4  fw-bold">
+            5. Забелешки од комисија
+        </div>
+        <div class="bg-white p-3">
+            <dl class="dl-horizontal">
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">валидира</dt>
+                    <dd class="col-10 fw-bold">член, ментор</dd>
+                </div>
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">опис</dt>
+                    <dd class="col-10">Членовите од комисијата во рок од 3 работни дена ја прегледуваат верзијата од дипломската работа и доколку се задоволни го потврдуваат статусот, а во спротивно внесуваат забелешка. Не преземањето на овој чекор од страна на членовите во предвиденио рок, се смета за прифаќање без забелешки. Доколку менторот го валидира статусот, валидацијата ќе биде во име на членовите од комисијата. Системот праќа известување по електронска пошта до студентот, менторот и службата за студентски прашања.</dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+    <div class="bg-lightgreen border-green mb-4">
+        <div class="text-darkgreen py-3 px-4  fw-bold">
+            6. Валидирање на услови за одбрана
+        </div>
+        <div class="bg-white p-3">
+            <dl class="dl-horizontal">
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">валидира</dt>
+                    <dd class="col-10 fw-bold">студентска служба</dd>
+                </div>
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">опис</dt>
+                    <dd class="col-10">Службата за студентски прашања врши проверка дали се исполнети условите за одбрана (положени и евидентирани сите испити). Доколку овој услов не е исполнет, студентот се известува по електронска пошта да ги собере пријавите кои недостасуваат. По исполнувањето на овој услов, се испраќа известување по електронска пошта до студентот, менторот и членовите во комисија со потребните документи за одбрана на дипломската.</dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+    <div class="bg-lightgreen border-green mb-4">
+        <div class="text-darkgreen py-3 px-4  fw-bold">
+            7. Одбрана
+        </div>
+        <div class="bg-white p-3">
+            <dl class="dl-horizontal">
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">валидира</dt>
+                    <dd class="col-10 fw-bold">ментор</dd>
+                </div>
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">опис</dt>
+                    <dd class="col-10">Менторот пристапува до системот за преглед и резервација на простории, резервира просторија за во одреден термин, потоа го внесува терминот и просторијата и ја закажува одбраната. Се испраќа известување по електронска пошта до студентот, менторот и членовите во комисија со потребните документи и деталите (време и место) за одбрана на трудот. Студентот од системот за дипломски ги симнува и печати сите потребни документи (записник за јавна одбрана), и ги носи со себе на денот на одбрана заедно со пријава за испит и индекс.</dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+    <div class="bg-lightgreen border-green mb-4">
+        <div class="text-darkgreen py-3 px-4  fw-bold">
+            8. Архива
+        </div>
+        <div class="bg-white p-3">
+            <dl class="dl-horizontal">
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">валидира</dt>
+                    <dd class="col-10 fw-bold">продекан за настава</dd>
+                </div>
+                <div class="d-flex">
+                    <dt class="col-2 text-end pe-3">опис</dt>
+                    <dd class="col-10"></dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+</div>

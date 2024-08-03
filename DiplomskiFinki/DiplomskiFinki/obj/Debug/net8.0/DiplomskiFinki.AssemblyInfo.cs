@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiplomskiFinki")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6d042e3086909b687efe68f38f04b4a4afb36be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c3d717251e37e66011c5853a9d90216b544fcd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiplomskiFinki")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiplomskiFinki")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

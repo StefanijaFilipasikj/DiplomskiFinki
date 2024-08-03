@@ -1,0 +1,74 @@
+﻿@model IEnumerable<DiplomskiFinki.Models.Diploma>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Листа на дипломски</h3>
+<hr class="text-muted" />
+
+@foreach (var item in Model)
+{
+   <div class="border rounded-3 mb-4">
+       <h6 class="p-3 bg-lightgray border-bottom rounded-top fw-bold">@Html.DisplayFor(modelItem => item.Title)</h6>
+       <div class="p-3">
+           <table class="table table-bordered table-striped table-condensed table-responsive">
+                <tr>
+                    <td class="col-3">
+                        <span class="fa fa-graduation-cap"></span>&nbsp;
+                        Студент
+                    </td>
+                    <td class="fw-bold">
+                        @Html.DisplayFor(model => item.Student)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-3">
+                        <span class="fa fa-user"></span>&nbsp;
+                        Ментор
+                    </td>
+                    <td class="fw-bold">
+                        @Html.DisplayFor(modelItem => item.Mentor)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-3">
+                        <span class="fa fa-user-md"></span>&nbsp;
+                        Член 1
+                    </td>
+                    <td class="fw-bold">
+                        @Html.DisplayFor(model => item.Member1)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-3">
+                        <span class="fa fa-user-md"></span>&nbsp;
+                        Член 2
+                    </td>
+                    <td class="fw-bold">
+                        @Html.DisplayFor(model => item.Member2)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-3">
+                        <span class="fa fa-calendar"></span>&nbsp;
+                        Датум на одбрана
+                    </td>
+                    <td class="fw-bold">
+                        @item.PresentationDate.Value.ToString("dd.MM.yyyy")
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-3">
+                        <span class="fa fa-clock-o"></span>&nbsp;
+                        Време на одбрана
+                    </td>
+                    <td class="fw-bold">
+                        @item.PresentationDate.Value.ToString("HH:mm")
+                    </td>
+                </tr>
+           </table>
+       </div>
+   </div>
+}
