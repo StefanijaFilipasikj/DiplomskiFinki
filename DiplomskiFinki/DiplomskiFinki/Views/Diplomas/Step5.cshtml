@@ -1,0 +1,24 @@
+﻿@model DiplomskiFinki.Models.Diploma;
+
+@{
+    ViewData["Title"] = "Step5";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 class="my-4">Забелешки од комисија</h3>
+<hr class="text-muted" />
+
+<div class="p-3 border rounded-3">
+    <form asp-action="Step5Submit" method="post">
+        <input type="hidden" value=@Model.Id name="id" />
+        <div class="form-group mb-3">
+            Прифаќам <input class="form-check-input" type="radio" value="true" id="true" name="accept">
+            Одбивам <input class="form-check-input" type="radio" value="false" id="false" name="accept">
+        </div>
+        <div class="form-group mb-3">
+            <label for="Note">Забелешка:</label>
+            <textarea class="form-control" id="Note" name="Note"></textarea>
+        </div>
+        <button class="btn btn-success w-100" type="submit">Submit</button>
+    </form>
+</div>

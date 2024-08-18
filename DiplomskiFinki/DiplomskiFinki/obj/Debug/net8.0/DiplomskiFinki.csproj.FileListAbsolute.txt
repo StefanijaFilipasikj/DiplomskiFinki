@@ -264,3 +264,9 @@ C:\Users\sfili\Documents\GitHub\DiplomskiFinki\DiplomskiFinki\DiplomskiFinki\bin
 C:\Users\sfili\Documents\GitHub\DiplomskiFinki\DiplomskiFinki\DiplomskiFinki\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\sfili\Documents\GitHub\DiplomskiFinki\DiplomskiFinki\DiplomskiFinki\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\sfili\Documents\GitHub\DiplomskiFinki\DiplomskiFinki\DiplomskiFinki\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\sfili\Documents\GitHub\DiplomskiFinki\DiplomskiFinki\DiplomskiFinki\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\sfili\Documents\GitHub\DiplomskiFinki\DiplomskiFinki\DiplomskiFinki\bin\Debug\net8.0\MailKit.dll
+C:\Users\sfili\Documents\GitHub\DiplomskiFinki\DiplomskiFinki\DiplomskiFinki\bin\Debug\net8.0\MimeKit.dll
+C:\Users\sfili\Documents\GitHub\DiplomskiFinki\DiplomskiFinki\DiplomskiFinki\bin\Debug\net8.0\SendGrid.dll
+C:\Users\sfili\Documents\GitHub\DiplomskiFinki\DiplomskiFinki\DiplomskiFinki\bin\Debug\net8.0\StarkbankEcdsa.dll
+C:\Users\sfili\Documents\GitHub\DiplomskiFinki\DiplomskiFinki\DiplomskiFinki\bin\Debug\net8.0\System.Formats.Asn1.dll

@@ -1,0 +1,71 @@
+﻿@model DiplomskiFinki.Models.Diploma;
+
+@{
+    ViewData["Title"] = "Step4";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 class="my-4">Одобрение за оценка од ментор</h3>
+<hr class="text-muted" />
+
+<div class="p-3 border rounded-3">
+    <table class="table table-bordered table-striped table-condensed table-responsive mb-3">
+        <tr>
+            <td class="col-3">
+                <span class="fa fa-graduation-cap"></span>&nbsp;
+                Студент
+            </td>
+            <td class="fw-bold">@Model.Student.Index</td>
+        </tr>
+        <tr>
+            <td class="col-3">
+                <span class="fa fa-book"></span>&nbsp;
+                Тема
+            </td>
+            <td class="fw-bold">@Model.Title</td>
+        </tr>
+        <tr>
+            <td class="col-3">
+                <span class="fa fa-laptop"></span>&nbsp;
+                Област
+            </td>
+            <td class="fw-bold">@Model.Domain</td>
+        </tr>
+        <tr>
+            <td class="col-3">
+                <span class="fa fa-level-up"></span>&nbsp;
+                Краток Опис
+            </td>
+            <td class="fw-bold">@Model.Description</td>
+        </tr>
+        <tr>
+            <td class="col-3">
+                <span class="fa fa-user"></span>&nbsp;
+                Ментор
+            </td>
+            <td class="fw-bold">@Model.Mentor.Name @Model.Mentor.Surname</td>
+        </tr>
+        <tr>
+            <td class="col-3">
+                <span class="fa fa-user-md"></span>&nbsp;
+                Член 1
+            </td>
+            <td class="fw-bold">@Model.Member1.Name @Model.Member1.Surname</td>
+        </tr>
+        <tr>
+            <td class="col-3">
+                <span class="fa fa-user-md"></span>&nbsp;
+                Член 2
+            </td>
+            <td class="fw-bold">@Model.Member2.Name @Model.Member2.Surname</td>
+        </tr>
+    </table>
+    <form asp-action="Step4Submit" method="post" enctype="multipart/form-data">
+        <input type="hidden" value=@Model.Id name="id" />
+        <div class="form-group mb-3">
+            <label for="file">Прикачи Датотека:</label>
+            <input class="form-control" type="file" id="file" name="file">
+        </div>
+        <button class="btn btn-success w-100" type="submit">Submit</button>
+    </form>
+</div>

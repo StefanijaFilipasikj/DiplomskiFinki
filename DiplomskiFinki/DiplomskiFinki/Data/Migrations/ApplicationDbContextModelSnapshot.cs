@@ -17,7 +17,7 @@ namespace DiplomskiFinki.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.2")
+                .HasAnnotation("ProductVersion", "8.0.7")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -28,24 +28,40 @@ namespace DiplomskiFinki.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Member1")
+                    b.Property<DateTime?>("ApplicationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Classroom")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Member2")
+                    b.Property<Guid>("DiplomaStatusId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Domain")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Mentor")
-                        .IsRequired()
+                    b.Property<string>("FilePath")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("Member1Id")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("Member2Id")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("MentorId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime?>("PresentationDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Student")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<Guid?>("StudentId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -53,7 +69,152 @@ namespace DiplomskiFinki.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("DiplomaStatusId")
+                        .IsUnique();
+
+                    b.HasIndex("Member1Id");
+
+                    b.HasIndex("Member2Id");
+
+                    b.HasIndex("MentorId");
+
+                    b.HasIndex("StudentId")
+                        .IsUnique()
+                        .HasFilter("[StudentId] IS NOT NULL");
+
                     b.ToTable("Diplomas");
+                });
+
+            modelBuilder.Entity("DiplomskiFinki.Models.DiplomaStatus", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.Property<double?>("StepSubStep")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("StepSubStep");
+
+                    b.ToTable("DiplomaStatuses");
+                });
+
+            modelBuilder.Entity("DiplomskiFinki.Models.Staff", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Surname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Staff");
+                });
+
+            modelBuilder.Entity("DiplomskiFinki.Models.Step", b =>
+                {
+                    b.Property<double>("SubStep")
+                        .HasColumnType("float");
+
+                    b.Property<string>("SubStepName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("SubStep");
+
+                    b.ToTable("Steps");
+
+                    b.HasData(
+                        new
+                        {
+                            SubStep = 1.0,
+                            SubStepName = "Пријава"
+                        },
+                        new
+                        {
+                            SubStep = 2.0,
+                            SubStepName = "Прифаќање на темата од студентот"
+                        },
+                        new
+                        {
+                            SubStep = 3.0,
+                            SubStepName = "Валидирање од службата за студентски прашања"
+                        },
+                        new
+                        {
+                            SubStep = 3.1000000000000001,
+                            SubStepName = "Одобрение од продекан за настава"
+                        },
+                        new
+                        {
+                            SubStep = 4.0,
+                            SubStepName = "Одобрение за оценка од ментор"
+                        },
+                        new
+                        {
+                            SubStep = 5.0,
+                            SubStepName = "Забелешки од комисија"
+                        },
+                        new
+                        {
+                            SubStep = 6.0,
+                            SubStepName = "Валидирање на услови за одбрана"
+                        },
+                        new
+                        {
+                            SubStep = 7.0,
+                            SubStepName = "Одбрана"
+                        },
+                        new
+                        {
+                            SubStep = 8.0,
+                            SubStepName = "Архива"
+                        });
+                });
+
+            modelBuilder.Entity("DiplomskiFinki.Models.Student", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int?>("Credits")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Index")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Surname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Student");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -258,6 +419,50 @@ namespace DiplomskiFinki.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("DiplomskiFinki.Models.Diploma", b =>
+                {
+                    b.HasOne("DiplomskiFinki.Models.DiplomaStatus", "DiplomaStatus")
+                        .WithOne("Diploma")
+                        .HasForeignKey("DiplomskiFinki.Models.Diploma", "DiplomaStatusId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DiplomskiFinki.Models.Staff", "Member1")
+                        .WithMany()
+                        .HasForeignKey("Member1Id");
+
+                    b.HasOne("DiplomskiFinki.Models.Staff", "Member2")
+                        .WithMany()
+                        .HasForeignKey("Member2Id");
+
+                    b.HasOne("DiplomskiFinki.Models.Staff", "Mentor")
+                        .WithMany()
+                        .HasForeignKey("MentorId");
+
+                    b.HasOne("DiplomskiFinki.Models.Student", "Student")
+                        .WithOne("Diploma")
+                        .HasForeignKey("DiplomskiFinki.Models.Diploma", "StudentId");
+
+                    b.Navigation("DiplomaStatus");
+
+                    b.Navigation("Member1");
+
+                    b.Navigation("Member2");
+
+                    b.Navigation("Mentor");
+
+                    b.Navigation("Student");
+                });
+
+            modelBuilder.Entity("DiplomskiFinki.Models.DiplomaStatus", b =>
+                {
+                    b.HasOne("DiplomskiFinki.Models.Step", "Step")
+                        .WithMany("DiplomaStatuses")
+                        .HasForeignKey("StepSubStep");
+
+                    b.Navigation("Step");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -306,6 +511,22 @@ namespace DiplomskiFinki.Data.Migrations
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("DiplomskiFinki.Models.DiplomaStatus", b =>
+                {
+                    b.Navigation("Diploma");
+                });
+
+            modelBuilder.Entity("DiplomskiFinki.Models.Step", b =>
+                {
+                    b.Navigation("DiplomaStatuses");
+                });
+
+            modelBuilder.Entity("DiplomskiFinki.Models.Student", b =>
+                {
+                    b.Navigation("Diploma")
                         .IsRequired();
                 });
 #pragma warning restore 612, 618

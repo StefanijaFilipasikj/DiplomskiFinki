@@ -22,6 +22,10 @@ body {
     font-family: sans-serif;
 }
 
+.px-22 {
+    padding: 0 220px;
+}
+
 .bg-lightgreen {
     background-color: #dff0d8;
 }
@@ -37,4 +41,16 @@ body {
 .border-green {
     border: 1px solid #d6e9c6;
     border-radius: 5px;
+}
+
+.btn-success {
+    background-color: #dff0d8;
+    border: 1px solid #dff0d8;
+    color: #3c763d;
+}
+
+.btn-success:hover {
+    background-color: #cfedc2;
+    border: 1px solid #cfedc2;
+    color: #3c763d;
 }

@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h3>Листа на дипломски</h3>
+<h3 class="my-4">Листа на дипломски</h3>
 <hr class="text-muted" />
 
 @foreach (var item in Model)
@@ -20,7 +20,7 @@
                         Студент
                     </td>
                     <td class="fw-bold">
-                        @Html.DisplayFor(model => item.Student)
+                        @Html.DisplayFor(model => item.Student.Index) - @Html.DisplayFor(model => item.Student.Name) @Html.DisplayFor(model => item.Student.Surname)
                     </td>
                 </tr>
                 <tr>
@@ -29,7 +29,7 @@
                         Ментор
                     </td>
                     <td class="fw-bold">
-                        @Html.DisplayFor(modelItem => item.Mentor)
+                        @Html.DisplayFor(modelItem => item.Mentor.Name) @Html.DisplayFor(modelItem => item.Mentor.Surname)
                     </td>
                 </tr>
                 <tr>
@@ -38,7 +38,7 @@
                         Член 1
                     </td>
                     <td class="fw-bold">
-                        @Html.DisplayFor(model => item.Member1)
+                        @Html.DisplayFor(model => item.Member1.Name) @Html.DisplayFor(model => item.Member1.Surname)
                     </td>
                 </tr>
                 <tr>
@@ -47,16 +47,59 @@
                         Член 2
                     </td>
                     <td class="fw-bold">
-                        @Html.DisplayFor(model => item.Member2)
+                        @Html.DisplayFor(model => item.Member2.Name) @Html.DisplayFor(model => item.Member2.Surname)
                     </td>
                 </tr>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <tr>
+                        <td class="col-3">
+                            <span class="fa fa-calendar"></span>&nbsp;
+                            Датум на пријавување
+                        </td>
+                        <td class="fw-bold">
+                            @if (item.ApplicationDate != null)
+                            {
+                                @item.ApplicationDate.Value.ToString("dd.MM.yyyy")
+                            }
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-3">
+                            <span class="fa fa-thumbs-up"></span>&nbsp;
+                            Статус
+                        </td>
+                        <td class="fw-bold">
+                            @Html.DisplayFor(model => item.DiplomaStatus.Step.SubStepName)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-3">
+                            <span class="fa fa-cloud-download"></span>&nbsp;
+                            Датотека
+                        </td>
+                        <td class="fw-bold">
+                            @if (item.FilePath != null)
+                            {
+                                <a href="@item.FilePath" class="link text-decoration-none" download>преземи</a>
+                            }
+                            else
+                            {
+                                <a>не постои</a>
+                            }
+                        </td>
+                    </tr>
+                }
                 <tr>
                     <td class="col-3">
                         <span class="fa fa-calendar"></span>&nbsp;
                         Датум на одбрана
                     </td>
                     <td class="fw-bold">
-                        @item.PresentationDate.Value.ToString("dd.MM.yyyy")
+                        @if (item.PresentationDate != null)
+                        {
+                            @item.PresentationDate.Value.ToString("dd.MM.yyyy")
+                        }
                     </td>
                 </tr>
                 <tr>
@@ -65,9 +108,33 @@
                         Време на одбрана
                     </td>
                     <td class="fw-bold">
-                        @item.PresentationDate.Value.ToString("HH:mm")
+                        @if (item.PresentationDate != null)
+                        {
+                            @item.PresentationDate.Value.ToString("HH:mm")
+                        }
                     </td>
                 </tr>
+                <tr>
+                    <td class="col-3">
+                        <span class="fa fa-key"></span>&nbsp;
+                        Просторија
+                    </td>
+                    <td class="fw-bold">
+                        @Html.DisplayFor(model => item.Classroom)
+                    </td>
+                </tr>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <tr>
+                        <td class="col-3">
+                            <span class="fa fa-level-up"></span>&nbsp;
+                            Краток опис
+                        </td>
+                        <td class="fw-bold">
+                            @Html.DisplayFor(model => item.Description)
+                        </td>
+                    </tr>
+                }
            </table>
        </div>
    </div>

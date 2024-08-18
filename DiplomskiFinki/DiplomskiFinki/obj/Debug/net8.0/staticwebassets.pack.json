@@ -245,6 +245,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\wwwroot\\uploads\\diplomska_4f982d77-7aab-4dc5-b44d-0400c90aea69.docx",
+      "PackagePath": "staticwebassets\\uploads\\diplomska_4f982d77-7aab-4dc5-b44d-0400c90aea69.docx"
+    },
+    {
+      "Id": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\wwwroot\\uploads\\diplomska_fd9c7d56-c604-45aa-b626-7dd5d9a8601a.docx",
+      "PackagePath": "staticwebassets\\uploads\\diplomska_fd9c7d56-c604-45aa-b626-7dd5d9a8601a.docx"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DiplomskiFinki.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

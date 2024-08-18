@@ -1,0 +1,24 @@
+﻿@model DiplomskiFinki.Models.Diploma;
+
+@{
+    ViewData["Title"] = "Step7";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 class="my-4">Одбрана</h3>
+<hr class="text-muted" />
+
+<div class="p-3 border rounded-3">
+    <form asp-action="Step7Submit" method="post">
+        <input type="hidden" value=@Model.Id name="id" />
+        <div class="form-group mb-3">
+            <label for="roomScheduled">Просторија:</label>
+            <input class="form-control" type="text" id="roomScheduled" name="roomScheduled">
+        </div>
+        <div class="form-group mb-3">
+            <label for="dateScheduled">Време:</label>
+            <input class="form-control" type="datetime" id="dateScheduled" name="dateScheduled" placeholder="2024-06-20T12:00">
+        </div>
+        <button class="btn btn-success w-100" type="submit">Submit</button>
+    </form>
+</div>
