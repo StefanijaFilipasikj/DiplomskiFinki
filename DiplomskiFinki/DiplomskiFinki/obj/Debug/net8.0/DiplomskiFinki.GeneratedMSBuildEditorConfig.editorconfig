@@ -30,6 +30,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/sfili/Documents/GitHub/DiplomskiFinki/DiplomskiFinki/DiplomskiFinki/Views/Diplomas/DiplomasError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlwbG9tYXNcRGlwbG9tYXNFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sfili/Documents/GitHub/DiplomskiFinki/DiplomskiFinki/DiplomskiFinki/Views/Diplomas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlwbG9tYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +46,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlwbG9tYXNcU3RlcDIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/sfili/Documents/GitHub/DiplomskiFinki/DiplomskiFinki/DiplomskiFinki/Views/Diplomas/Step3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlwbG9tYXNcU3RlcDMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sfili/Documents/GitHub/DiplomskiFinki/DiplomskiFinki/DiplomskiFinki/Views/Diplomas/Step31.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlwbG9tYXNcU3RlcDMxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sfili/Documents/GitHub/DiplomskiFinki/DiplomskiFinki/DiplomskiFinki/Views/Diplomas/Step4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlwbG9tYXNcU3RlcDQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,8 +62,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlwbG9tYXNcU3RlcDUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/sfili/Documents/GitHub/DiplomskiFinki/DiplomskiFinki/DiplomskiFinki/Views/Diplomas/Step6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlwbG9tYXNcU3RlcDYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sfili/Documents/GitHub/DiplomskiFinki/DiplomskiFinki/DiplomskiFinki/Views/Diplomas/Step7.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlwbG9tYXNcU3RlcDcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sfili/Documents/GitHub/DiplomskiFinki/DiplomskiFinki/DiplomskiFinki/Views/Diplomas/Step8.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlwbG9tYXNcU3RlcDguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sfili/Documents/GitHub/DiplomskiFinki/DiplomskiFinki/DiplomskiFinki/Views/Home/Index.cshtml]

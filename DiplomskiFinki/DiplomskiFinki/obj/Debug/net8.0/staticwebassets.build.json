@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "svXDWFCmwXyVg0qaoAESMgm+06Q9fA49Hy13RQsG8tc=",
+  "Hash": "hBgFEr5kluNPE3y6OwksQTUj21sqoSQ0Fc2H6ZvVBbs=",
   "Source": "DiplomskiFinki",
   "BasePath": "_content/DiplomskiFinki",
   "Mode": "Default",
@@ -2333,44 +2333,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\wwwroot\\uploads\\diplomska_4f982d77-7aab-4dc5-b44d-0400c90aea69.docx",
-      "SourceId": "DiplomskiFinki",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\wwwroot\\",
-      "BasePath": "_content/DiplomskiFinki",
-      "RelativePath": "uploads/diplomska_4f982d77-7aab-4dc5-b44d-0400c90aea69.docx",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\diplomska_4f982d77-7aab-4dc5-b44d-0400c90aea69.docx"
-    },
-    {
-      "Identity": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\wwwroot\\uploads\\diplomska_fd9c7d56-c604-45aa-b626-7dd5d9a8601a.docx",
-      "SourceId": "DiplomskiFinki",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\wwwroot\\",
-      "BasePath": "_content/DiplomskiFinki",
-      "RelativePath": "uploads/diplomska_fd9c7d56-c604-45aa-b626-7dd5d9a8601a.docx",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\diplomska_fd9c7d56-c604-45aa-b626-7dd5d9a8601a.docx"
     }
   ]
 }

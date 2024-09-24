@@ -194,7 +194,7 @@ namespace DiplomskiFinki.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int?>("Credits")
+                    b.Property<int>("Credits")
                         .HasColumnType("int");
 
                     b.Property<string>("Email")

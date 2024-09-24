@@ -8,7 +8,13 @@
 <h3 class="my-4">Одбрана</h3>
 <hr class="text-muted" />
 
-<div class="p-3 border rounded-3">
+<div class="bg-lightgreen border-green mb-4">
+    <div class="p-3">
+        Менторот резервира просторија за во одреден термин и ја закажува одбраната.
+    </div>
+</div>
+
+<div class="p-5 border rounded-3">
     <form asp-action="Step7Submit" method="post">
         <input type="hidden" value=@Model.Id name="id" />
         <div class="form-group mb-3">
@@ -19,6 +25,7 @@
             <label for="dateScheduled">Време:</label>
             <input class="form-control" type="datetime" id="dateScheduled" name="dateScheduled" placeholder="2024-06-20T12:00">
         </div>
-        <button class="btn btn-success w-100" type="submit">Submit</button>
+        <button class="btn btn-dark" type="submit">Потврди</button>
+        <a href="/Diplomas" class="btn btn-dark">Откажи</a>
     </form>
 </div>

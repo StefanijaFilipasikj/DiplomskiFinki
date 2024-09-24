@@ -1,16 +1,16 @@
 ﻿@model DiplomskiFinki.Models.Diploma;
 
 @{
-    ViewData["Title"] = "Step4";
+    ViewData["Title"] = "Step8";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h3 class="my-4">Одобрение за оценка од ментор</h3>
+<h3 class="my-4">Архива</h3>
 <hr class="text-muted" />
 
 <div class="bg-lightgreen border-green mb-4">
-    <div class="p-3">
-        Доколку менторот е задоволен со изработената работа и напишаниот текст, истиот го прикажува тука, по што пријавата е видлива и за членовите на комисијата.
+    <div class="p-3 text-dark">
+        Валидација од продекан на настава.
     </div>
 </div>
 
@@ -66,11 +66,13 @@
             <td class="fw-bold">@Model.Member2.Name @Model.Member2.Surname</td>
         </tr>
     </table>
-    <form asp-action="Step4Submit" method="post" enctype="multipart/form-data" class="mt-5">
+    <form asp-action="Step8Submit" method="post" class="mt-5 p-3 border">
+        <h4>Дали дипломската е валидна?</h4>
         <input type="hidden" value=@Model.Id name="id" />
+
         <div class="form-group mb-3">
-            <label for="file">Прикачи Датотека:</label>
-            <input class="form-control" type="file" id="file" name="file">
+            Да <input class="form-check-input me-4" type="radio" value="true" id="true" name="accept">
+            Не <input class="form-check-input" type="radio" value="false" id="false" name="accept">
         </div>
         <button class="btn btn-dark" type="submit">Потврди</button>
         <a href="/Diplomas" class="btn btn-dark">Откажи</a>

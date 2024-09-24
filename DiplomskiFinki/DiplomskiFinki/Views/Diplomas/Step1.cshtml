@@ -6,30 +6,44 @@
 <h3 class="my-4">Нова Пријава</h3>
 <hr class="text-muted" />
 
-<form class="border rounded-3 p-5" asp-action="Step1Submit" method="post">
-    <div class="form-group mb-3">
-        <label for="Title">Тема:</label>
-        <input class="form-control" type="text" id="Title" name="Title" required />
+<div class="bg-lightgreen border-green mb-4">
+    <div class="p-3">
+        Пријавниот лист го пополнуваат заедно студентот и менторот. Потоа студентот се најавува на системот и го потврдува пријавниот лист.
     </div>
-    <div class="form-group mb-3">
-        <label for="Domain">Област:</label>
-        <input class="form-control" type="text" id="Domain" name="Domain" required />
-    </div>
-    <div class="form-group mb-3">
-        <label for="Description">Кратка Содржина:</label>
-        <textarea class="form-control" id="Description" name="Description" required></textarea>
-    </div>
-    <div class="form-group mb-3">
-        <label for="StudentId">Индекс на студентот:</label>
-        <select class="form-control" id="StudentId" name="StudentId" required asp-items="ViewBag.Students"></select>
-    </div>
-    <div class="form-group mb-3">
-        <label for="Member1Id">Член 1 (Професор):</label>
-        <select class="form-control" id="Member1Id" name="Member1Id" required asp-items="ViewBag.Member1Ids"></select>
-    </div>
-    <div class="form-group mb-3">
-        <label for="Member2Id">Член 2 (Асистент или професор):</label>
-        <select class="form-control" id="Member2Id" name="Member2Id" required asp-items="ViewBag.Member2Ids"></select>
-    </div>
-    <button class="btn btn-success w-100" type="submit">Submit</button>
-</form>
+</div>
+
+<div class="border rounded-3 p-5">
+    <form asp-action="Step1Submit" method="post">
+        <div class="form-group mb-3">
+            <label for="StudentId">Индекс на студентот:</label>
+            <select class="form-control" id="StudentId" name="StudentId" required asp-items="ViewBag.Students"></select>
+        </div>
+        <div class="form-group mb-3">
+            <label for="Title">Тема:</label>
+            <textarea class="form-control" id="Title" name="Title" required></textarea>
+        </div>
+        <div class="form-group mb-3">
+            <label for="Domain">Област:</label>
+            <textarea class="form-control" id="Domain" name="Domain" required></textarea>
+        </div>
+        <div class="form-group mb-3">
+            <label for="Description">Кратка Содржина:</label>
+            <textarea class="form-control" id="Description" name="Description" required></textarea>
+        </div>
+        <div class="form-group mb-3">
+            <label for="MentorId">Ментор:</label>
+            <input type="hidden" name="MentorId" value="@ViewBag.Mentor.Id"/>
+            <input class="form-control" type="text" value="@ViewBag.Mentor.Name @ViewBag.Mentor.Surname" disabled/>
+        </div>
+        <div class="form-group mb-3">
+            <label for="Member1Id">Член 1 (Професор):</label>
+            <select class="form-control" id="Member1Id" name="Member1Id" required asp-items="ViewBag.Member1Ids"></select>
+        </div>
+        <div class="form-group mb-3">
+            <label for="Member2Id">Член 2 (Асистент или професор):</label>
+            <select class="form-control" id="Member2Id" name="Member2Id" required asp-items="ViewBag.Member2Ids"></select>
+        </div>
+        <button class="btn btn-dark" type="submit">Потврди</button>
+        <a href="/Diplomas" class="btn btn-dark">Откажи</a>
+    </form>
+</div>
