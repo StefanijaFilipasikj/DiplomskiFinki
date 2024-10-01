@@ -1,105 +1,126 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\controllers\\diplomascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\user\\desktop\\diplomskifinki\\diplomskifinki\\diplomskifinki\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\user\\desktop\\diplomskifinki\\diplomskifinki\\diplomskifinki\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\user\\desktop\\diplomskifinki\\diplomskifinki\\diplomskifinki\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\user\\desktop\\diplomskifinki\\diplomskifinki\\diplomskifinki\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\user\\desktop\\diplomskifinki\\diplomskifinki\\diplomskifinki\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\user\\desktop\\diplomskifinki\\diplomskifinki\\diplomskifinki\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\user\\desktop\\diplomskifinki\\diplomskifinki\\diplomskifinki\\controllers\\diplomascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\controllers\\diplomascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\views\\diplomas\\step4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\views\\diplomas\\step4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\views\\diplomas\\step4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\views\\diplomas\\step7.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\views\\diplomas\\step7.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\views\\diplomas\\step7.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\views\\diplomas\\step5.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\views\\diplomas\\step5.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\views\\diplomas\\step5.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\views\\diplomas\\step2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\views\\diplomas\\step2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\views\\diplomas\\step2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\views\\diplomas\\step1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\views\\diplomas\\step1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\views\\diplomas\\step1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/DiplomskiFinki/True/SqlTable/dbo.Diplomas.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240924072740_idk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DiplomskiFinki\\Data\\Migrations\\20240924072740_idk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240924072740_idk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\models\\diploma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\models\\diploma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\models\\diploma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\views\\diplomas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\views\\diplomas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\views\\diplomas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\models\\step.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\models\\step.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\models\\step.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\models\\diplomastatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\models\\diplomastatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\models\\diplomastatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/DiplomskiFinki/True/SqlTable/dbo.Student.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\data\\migrations\\20240818065234_addmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\data\\migrations\\20240818065234_addmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\data\\migrations\\20240818065234_addmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/DiplomskiFinki/True/SqlTable/dbo.Staff.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240818061005_Mig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DiplomskiFinki\\Data\\Migrations\\20240818061005_Mig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240818061005_Mig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240817200823_Mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DiplomskiFinki\\Data\\Migrations\\20240817200823_Mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240817200823_Mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/DiplomskiFinki/True/SqlTable/dbo.Steps.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|c:\\users\\sfili\\documents\\github\\diplomskifinki\\diplomskifinki\\diplomskifinki\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\diplomskifinki\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{754F8646-7683-4636-A603-B5B79241DA18}|DiplomskiFinki\\DiplomskiFinki.csproj|solutionrelative:diplomskifinki\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -110,44 +131,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 285,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "DiplomskiFinki\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "DiplomskiFinki\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAKAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAB0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-03T10:36:06.054Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Step1.cshtml",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step1.cshtml",
-              "RelativeDocumentMoniker": "DiplomskiFinki\\Views\\Diplomas\\Step1.cshtml",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step1.cshtml",
-              "RelativeToolTip": "DiplomskiFinki\\Views\\Diplomas\\Step1.cshtml",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAYwAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T10:03:16.583Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
+              "Title": "Step1.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step1.cshtml",
+              "RelativeDocumentMoniker": "DiplomskiFinki\\Views\\Diplomas\\Step1.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step1.cshtml",
+              "RelativeToolTip": "DiplomskiFinki\\Views\\Diplomas\\Step1.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T10:03:16.583Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "DiplomasController.cs",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Controllers\\DiplomasController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Controllers\\DiplomasController.cs",
               "RelativeDocumentMoniker": "DiplomskiFinki\\Controllers\\DiplomasController.cs",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Controllers\\DiplomasController.cs*",
-              "RelativeToolTip": "DiplomskiFinki\\Controllers\\DiplomasController.cs*",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwCwAAABfAAAA",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Controllers\\DiplomasController.cs",
+              "RelativeToolTip": "DiplomskiFinki\\Controllers\\DiplomasController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwCwAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T20:27:02.507Z",
               "IsPinned": true,
@@ -155,11 +176,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "DiplomskiFinki\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\wwwroot\\css\\site.css",
               "RelativeToolTip": "DiplomskiFinki\\wwwroot\\css\\site.css",
               "ViewState": "AQIAABgAAAAAAAAAAAAAwDcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -168,31 +189,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Step4.cshtml",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step4.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step4.cshtml",
               "RelativeDocumentMoniker": "DiplomskiFinki\\Views\\Diplomas\\Step4.cshtml",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step4.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step4.cshtml",
               "RelativeToolTip": "DiplomskiFinki\\Views\\Diplomas\\Step4.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-17T15:20:39.675Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "Step2.cshtml",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step2.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step2.cshtml",
               "RelativeDocumentMoniker": "DiplomskiFinki\\Views\\Diplomas\\Step2.cshtml",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step2.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step2.cshtml",
               "RelativeToolTip": "DiplomskiFinki\\Views\\Diplomas\\Step2.cshtml",
               "ViewState": "AQIAADUAAAAAAAAAAAAYwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-17T14:04:01.12Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -207,54 +226,114 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DiplomskiFinki\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "DiplomskiFinki\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T16:54:49.993Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "DiplomskiFinki\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "DiplomskiFinki\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T16:54:49.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "DiplomskiFinki\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "DiplomskiFinki\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T16:54:46.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DiplomskiFinki\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DiplomskiFinki\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T16:49:30.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "DiplomskiFinki\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "DiplomskiFinki\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T16:54:06.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DiplomskiFinki\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DiplomskiFinki\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T16:44:49.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Program.cs",
               "RelativeDocumentMoniker": "DiplomskiFinki\\Program.cs",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Program.cs",
               "RelativeToolTip": "DiplomskiFinki\\Program.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAIwCEAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T07:33:54.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T07:33:54.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "20240924072740_idk.cs",
               "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240924072740_idk.cs",
-              "RelativeDocumentMoniker": "DiplomskiFinki\\Data\\Migrations\\20240924072740_idk.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240924072740_idk.cs",
               "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240924072740_idk.cs",
-              "RelativeToolTip": "DiplomskiFinki\\Data\\Migrations\\20240924072740_idk.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240924072740_idk.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAYwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T07:27:40.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T07:27:40.64Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "Step.cs",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\Step.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\Step.cs",
               "RelativeDocumentMoniker": "DiplomskiFinki\\Models\\Step.cs",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\Step.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\Step.cs",
               "RelativeToolTip": "DiplomskiFinki\\Models\\Step.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -262,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "dbo.Student [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/DiplomskiFinki/True/SqlTable/dbo.Student.sql",
               "ToolTip": "dbo.Student [Data]",
@@ -271,11 +350,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "DiplomskiFinki\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "DiplomskiFinki\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T21:39:31.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "20240818065234_AddModels.cs",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240818065234_AddModels.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240818065234_AddModels.cs",
               "RelativeDocumentMoniker": "DiplomskiFinki\\Data\\Migrations\\20240818065234_AddModels.cs",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240818065234_AddModels.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240818065234_AddModels.cs",
               "RelativeToolTip": "DiplomskiFinki\\Data\\Migrations\\20240818065234_AddModels.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAAhwDIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -283,33 +375,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "dbo.Diplomas [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/DiplomskiFinki/True/SqlTable/dbo.Diplomas.sql",
               "ToolTip": "dbo.Diplomas [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-18T06:12:03.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T06:12:03.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "20240818061005_Mig3.cs",
               "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240818061005_Mig3.cs",
-              "RelativeDocumentMoniker": "DiplomskiFinki\\Data\\Migrations\\20240818061005_Mig3.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240818061005_Mig3.cs",
               "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240818061005_Mig3.cs",
-              "RelativeToolTip": "DiplomskiFinki\\Data\\Migrations\\20240818061005_Mig3.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240818061005_Mig3.cs",
               "ViewState": "AQIAAGoAAAAAAAAAAAAQwIUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-18T06:10:05.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DiplomskiFinki\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "DiplomskiFinki\\Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -317,11 +408,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "DiplomaStatus.cs",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\DiplomaStatus.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\DiplomaStatus.cs",
               "RelativeDocumentMoniker": "DiplomskiFinki\\Models\\DiplomaStatus.cs",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\DiplomaStatus.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\DiplomaStatus.cs",
               "RelativeToolTip": "DiplomskiFinki\\Models\\DiplomaStatus.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -329,36 +420,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "Diploma.cs",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\Diploma.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\Diploma.cs",
               "RelativeDocumentMoniker": "DiplomskiFinki\\Models\\Diploma.cs",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\Diploma.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\Diploma.cs",
               "RelativeToolTip": "DiplomskiFinki\\Models\\Diploma.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAwA0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T05:49:26.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T05:49:26.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "DiplomskiFinki\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "DiplomskiFinki\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T21:39:31.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Index.cshtml",
               "RelativeDocumentMoniker": "DiplomskiFinki\\Views\\Diplomas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Index.cshtml",
               "RelativeToolTip": "DiplomskiFinki\\Views\\Diplomas\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -366,49 +444,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "20240817200823_Mig1.cs",
               "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240817200823_Mig1.cs",
-              "RelativeDocumentMoniker": "DiplomskiFinki\\Data\\Migrations\\20240817200823_Mig1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240817200823_Mig1.cs",
               "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240817200823_Mig1.cs",
-              "RelativeToolTip": "DiplomskiFinki\\Data\\Migrations\\20240817200823_Mig1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Data\\Migrations\\20240817200823_Mig1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T20:08:24.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Step7.cshtml",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step7.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step7.cshtml",
               "RelativeDocumentMoniker": "DiplomskiFinki\\Views\\Diplomas\\Step7.cshtml",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step7.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step7.cshtml",
               "RelativeToolTip": "DiplomskiFinki\\Views\\Diplomas\\Step7.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAUwB4AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T20:04:46.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T20:04:46.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Step5.cshtml",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step5.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step5.cshtml",
               "RelativeDocumentMoniker": "DiplomskiFinki\\Views\\Diplomas\\Step5.cshtml",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step5.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Views\\Diplomas\\Step5.cshtml",
               "RelativeToolTip": "DiplomskiFinki\\Views\\Diplomas\\Step5.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T19:22:52.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T19:22:52.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\Student.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\Student.cs",
               "RelativeDocumentMoniker": "DiplomskiFinki\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\Student.cs",
               "RelativeToolTip": "DiplomskiFinki\\Models\\Student.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAzwAwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -416,11 +492,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "Staff.cs",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\Staff.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\Staff.cs",
               "RelativeDocumentMoniker": "DiplomskiFinki\\Models\\Staff.cs",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\Staff.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\Models\\Staff.cs",
               "RelativeToolTip": "DiplomskiFinki\\Models\\Staff.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAADwvwcAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -428,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "dbo.Steps [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/DiplomskiFinki/True/SqlTable/dbo.Steps.sql",
               "ToolTip": "dbo.Steps [Data]",
@@ -437,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "dbo.Staff [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/DiplomskiFinki/True/SqlTable/dbo.Staff.sql",
               "ToolTip": "dbo.Staff [Data]",
@@ -446,39 +522,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\appsettings.json",
               "RelativeDocumentMoniker": "DiplomskiFinki\\appsettings.json",
-              "ToolTip": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\appsettings.json",
               "RelativeToolTip": "DiplomskiFinki\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-08-17T19:14:05.254Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 831,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 115,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             }
           ]
         }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki.csproj": {}
+    "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki.csproj": {
+    "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki.csproj",
         "projectName": "DiplomskiFinki",
-        "projectPath": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki.csproj",
-        "packagesPath": "C:\\Users\\sfili\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sfili\\Documents\\GitHub\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\DiplomskiFinki\\DiplomskiFinki\\DiplomskiFinki\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sfili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

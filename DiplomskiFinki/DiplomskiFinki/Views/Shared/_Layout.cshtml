@@ -8,20 +8,52 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/DiplomskiFinki.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Custom background for navbar */
+        .custom-background {
+            background: rgba(29, 29, 83, 0.96);
+        }
+
+        /* Media queries for responsive design */
+        @@media (max-width: 768px) {
+            .navbar-brand img {
+                height: 40px; /* Reduce image size on small screens */
+            }
+        }
+
+        @@media (min-width: 769px) {
+            .navbar-brand img {
+                height: 50px;
+            }
+        }
+
+        /* Make the hamburger menu icon white */
+        .navbar-toggler {
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+
+        .footer {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3 p-1">
-            <div class="container-fluid px-22">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm custom-background box-shadow mb-3 p-1">
+            <div class="container px-3">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="http://diplomski.finki.ukim.mk/Images/finki_mk.png" alt="Dplomski Finki" height="50px;"/>
+                    <img src="http://diplomski.finki.ukim.mk/Images/finki_mk.png" alt="Diplomski Finki" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between text-white">
+                    <ul class="navbar-nav flex-grow-1 text-white">
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item me-4">
@@ -31,11 +63,11 @@
                                 <a class="nav-link" asp-area="" asp-controller="Diplomas" asp-action="Step"><span class="fa fa-indent"></span> Дипломска</a>
                             </li>
                             <li class="nav-item me-4">
-                                <a class="nav-link" target="__blank" href="http://www.finki.ukim.mk/mk/studies/procedura-diplomska-rabota"><span class="fa fa-gavel"></span> Процедура за дипломска работа</a>
+                                <a class="nav-link" target="_blank" href="http://www.finki.ukim.mk/mk/studies/procedura-diplomska-rabota"><span class="fa fa-gavel"></span> Процедура за дипломска работа</a>
                             </li>
                         }
                         <li class="nav-item me-4">
-                            <a class="nav-link" asp-area="" asp-controller="Diplomas" asp-action="Index"><span class="fa fa-tasks"></span> Листа на дипломски</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Diplomas" asp-action="Index"><span class="fa fa-tasks text-white"></span> Листа на дипломски</a>
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
@@ -43,18 +75,20 @@
             </div>
         </nav>
     </header>
-    <div class="px-22">
+    
+    <div class="container px-3">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
     <footer class="footer">
-        <div class="px-22 text-muted">
+        <div class="container text-muted">
             <hr class="p-0 m-0" />
             <p class="p-0 m-0">&copy; 2024 - Факултет за информатички науки и компјутерско инженерство</p>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
